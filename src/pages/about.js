@@ -1,6 +1,6 @@
 import React from 'react';
 import Helmet from 'react-helmet';
-import { Link } from 'gatsby';
+import { Link, graphql } from 'gatsby';
 import Header from '../components/Header';
 import Block from '~/src/components/Block';
 import Figure from '~/src/components/Figure';

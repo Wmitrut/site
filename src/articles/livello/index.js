@@ -1,4 +1,5 @@
 import React from 'react';
+import { graphql } from 'gatsby';
 import Article from '~/src/components/Article';
 
 import Block from '~/src/components/Block';
@@ -6,7 +7,7 @@ import Figure from '~/src/components/Figure';
 
 export const frontmatter = {
   id: 'livello',
-  isWork: false,
+  isWork: true,
   subtitle: 'Livello MVP',
   title: 'Building an MVP for a Food-Tech IoT Startup',
   date: '2018-03-01',

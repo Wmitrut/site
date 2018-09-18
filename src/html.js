@@ -1,6 +1,4 @@
 import React from 'react';
-import favicon16 from '~/static/icons/favicon-16x16.png';
-import favicon32 from '~/static/icons/favicon-32x32.png';
 
 let stylesStr;
 if (process.env.NODE_ENV === `production`) {
@@ -22,8 +20,18 @@ export default class HTML extends React.Component {
             name="viewport"
             content="width=device-width, initial-scale=1, shrink-to-fit=no"
           />
-          <link rel="icon" type="image/png" href={favicon32} sizes="32x32" />
-          <link rel="icon" type="image/png" href={favicon16} sizes="16x16" />
+          <link
+            rel="icon"
+            type="image/png"
+            href="/icons/favicon-16x16.png"
+            sizes="32x32"
+          />
+          <link
+            rel="icon"
+            type="image/png"
+            href="/icons/favicon-32x32.png"
+            sizes="16x16"
+          />
 
           <link rel="manifest" href="/manifest.json" />
           <meta name="mobile-web-app-capable" content="yes" />

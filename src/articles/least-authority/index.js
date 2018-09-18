@@ -1,4 +1,5 @@
 import React from 'react';
+import { graphql } from 'gatsby';
 import Article from '~/src/components/Article';
 
 import Block from '~/src/components/Block';
